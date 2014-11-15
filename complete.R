@@ -27,5 +27,5 @@ complete <- function(directory, id = 1:332) {
   
   datalist <- t(datalist)
   colnames(datalist) <- c("id", "nobs")
-  as.data.frame(datalist)
+  data<-as.data.frame(datalist)
 }
